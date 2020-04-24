@@ -1,4 +1,4 @@
-update=Fri 17 Apr 2020 07:41:02 PM CEST
+update=Fri 24 Apr 2020 11:47:01 AM CEST
 version=1
 last_client=kicad
 [general]
@@ -12,7 +12,7 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
-[LibeditFrame]
+[ModEditFrame]
 version=1
 [pcbnew]
 version=1
@@ -37,6 +37,9 @@ RequireCourtyardDefinitions=0
 ProhibitOverlappingCourtyards=1
 CopperEdgeClearance=0.01
 TrackWidth1=0.508
+TrackWidth2=0.508
+TrackWidth3=1.6002
+TrackWidth4=2.1082
 ViaDiameter1=0.8
 ViaDrill1=0.4
 dPairWidth1=0.2
@@ -67,7 +70,7 @@ DimensionPrecision=1
 SolderMaskClearance=0.051
 SolderMaskMinWidth=0.25
 SolderPasteClearance=0
-SolderPasteRatio=0
+SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
